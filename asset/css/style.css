@@ -44,6 +44,18 @@ a {
   cursor: pointer;
   opacity: 0.9;
 }
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-camp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2 {
+  --line-camp: 2;
+}
+.break-all {
+  word-break: break-all;
+}
 .nav a {
   color: #5f5b53;
   position: relative;
@@ -293,6 +305,7 @@ a {
   margin-top: 55px;
 }
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   border: 1px solid #e2dfda;
   background: #fff;
