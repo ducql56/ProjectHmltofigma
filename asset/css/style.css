@@ -379,3 +379,18 @@ a {
 .popular .course-item .btn-book:hover {
   background-color: var(--primary-color);
 }
+/* ===========feedback=============== */
+.Feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+.Feedback-item {
+  display: flex;
+}
+.Feedback-item .avartar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
