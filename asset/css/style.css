@@ -488,3 +488,12 @@ a {
 
   background: var(--primary-color);
 }
+.features .heading-lv2 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
